@@ -3,16 +3,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Page</title>
+    <title>Colorful Webpage</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(to right, red, yellow, green);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            background-color: red;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: green;
+            border-color: yellow;
+            color: white;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            border: 3px solid red;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            color: green;
+        }
+
+        .container ul li {
+            color: red;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            background: yellow;
+            color: green;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage</h1>
-    <p>This is a simple HTML page. You can add more content here!</p>
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-    <a href="https://example.com">Visit Example.com</a>
+    <header>
+        <h1>Welcome to My Colorful Webpage</h1>
+        <p>Red, Yellow, and Green Magic</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="container">
+        <h2>About Us</h2>
+        <p>This colorful webpage uses vibrant red, yellow, and green colors to make it stand out.</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Creative Design</li>
+            <li>Colorful Layouts</li>
+            <li>Bright Ideas</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Colorful Webpage. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Webpage</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #f0f4f8, #d9e8ff);
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: #3f51b5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #3f51b5;
+            margin: 10px 15px;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #3f51b5;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            color: #3f51b5;
+            margin-bottom: 15px;
+        }
+
+        .container p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .container ul {
+            list-style: none;
+        }
+
+        .container ul li {
+            background: #e3f2fd;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #3f51b5;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #3f51b5;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modern Web Design</h1>
+        <p>Simple, Clean, and Aesthetic</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="container">
+        <h2>About Us</h2>
+        <p>Welcome to a modern, clean, and visually appealing website design. This design uses gradients, subtle shadows, and smooth animations for an elegant look.</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Creative Web Design</li>
+            <li>Responsive Development</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Modern Web Design. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teal & White Design</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #eafaf9;
+            color: #333;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background: #008080; /* Teal Color */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-out;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #008080;
+            margin: 10px 15px;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background: #008080;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .container h2 {
+            color: #008080;
+            margin-bottom: 15px;
+        }
+
+        .container p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .container ul {
+            list-style: none;
+        }
+
+        .container ul li {
+            background: #e0f7f5;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: #008080;
+            font-weight: bold;
+            animation: slideIn 0.5s ease-out forwards;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #008080;
+            color: white;
+            margin-top: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teal & White Design</h1>
+        <p>Clean, Modern, and Animated</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section class="container">
+        <h2>About Us</h2>
+        <p>Welcome to a modern and animated teal & white design. This webpage uses subtle animations and a clean color scheme to make it visually appealing.</p>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Creative Web Design</li>
+            <li>Responsive Development</li>
+            <li>SEO Optimization</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Teal & White Design. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
